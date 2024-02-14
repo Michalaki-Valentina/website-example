@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="/bootstrap@5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="/bootstrap@5.3.2/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Website example</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand logo-color" href="/home-page.html">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link menu-link" href="/home-page.html">Home</a>
+            </li>
+
+            <!-- Desktop Options (lg and up) -->
+            <li
+              class="d-none d-md-block nav-item dropdown justify-content-center"
+            >
+              <a class="nav-link menu-link" href="/home-page.html">Company</a>
+            </li>
+
+            <!-- Mobile Options (lg and down)-->
+            <div class="d-md-none">
+              <li class="nav-item">
+                <a class="nav-link" href="/home-page.html">Company</a>
+              </li>
+            </div>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/home-page.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/home-page.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- CAROUSEL -->
+    <section id="carousel-container">
+      <div
+        id="carouselAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+        data-bs-pause="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/glass-building.jpg"
+              class="d-block w-100"
+              alt="glass building"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/modern-building.jpg"
+              class="d-block w-100"
+              alt="modern building"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/skyscraper.jpg"
+              class="d-block w-100"
+              alt="skyscraper"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="procedure-container" class="mb-5">
+      <div class="d-flex flex-column flex-md-row justify-content-around p-5">
+        <div class="d-flex flex-column align-items-center p-4">
+          <img
+            class="img-fluid mechanism"
+            src="./assets/icons/research.svg"
+            alt="research icon"
+          />
+          <p class="mechanism-text">Extented Research</p>
+        </div>
+        <div class="d-flex flex-column align-items-center p-4">
+          <img
+            class="img-fluid mechanism color:white;"
+            src="./assets/icons/idea.svg"
+            alt="idea icon"
+          />
+          <p class="mechanism-text">Creative Ideas</p>
+        </div>
+        <div class="d-flex flex-column align-items-center p-4">
+          <img
+            class="img-fluid mechanism"
+            src="./assets/icons/design.svg"
+            alt="design icon"
+          />
+          <p class="mechanism-text">Modern Design</p>
+        </div>
+        <div class="d-flex flex-column align-items-center p-4">
+          <img
+            class="img-fluid mechanism"
+            src="./assets/icons/team.svg"
+            alt="team icon"
+          />
+          <p class="mechanism-text">Professional Team</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects-container" class="py-2">
+      <h1 class="text-center py-5">Work in Progress</h1>
+      <div class="project-images m-5">
+        <div class="row d-flex flex-wrap w-100 mx-0">
+          <div class="col h-100">
+            <img
+              class="w-100 h-100"
+              src="./assets/images/bedrooom1.jpg"
+              alt="luxury bedroom"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/img-pool1.jpg"
+              alt="luxury pool"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/mansion2.jpg"
+              alt="mansion"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/img-pool4.jpg"
+              alt="luxury pool"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/img-pool3.jpg"
+              alt="luxury pool"
+            />
+          </div>
+          <div class="col h-100">
+            <img
+              class="w-100 h-100"
+              src="./assets/images/living-room.jpg"
+              alt="luxury living room"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/mansion1.jpg"
+              alt="mansion"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/img-pool2.jpg"
+              alt="luxury pool"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/mansion3.jpg"
+              alt="luxury mansion"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/img-pool5.jpg"
+              alt="luxury swimming pool"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/mansion4.jpg"
+              alt="mansion"
+            />
+            <img
+              class="w-100 h-100"
+              src="./assets/images/kitchen.jpg"
+              alt="luxury kitchen"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div
+        class="footer-container d-flex flex-column flex-md-row justify-content-sm-evenly p-4 lh-1"
+      >
+        <div
+          class="info address-info p-5 d-flex flex-column align-items-center"
+        >
+          <h4>Address</h4>
+          <p>Lorem ipsun Lorem ipsun</p>
+          <p>Lorem ipsun Lorem ipsum</p>
+        </div>
+        <div
+          class="info contact-info p-5 d-flex flex-column align-items-center"
+        >
+          <h4>Contact</h4>
+          <p>info@company.com</p>
+          <p>+308743875632478568</p>
+        </div>
+        <div class="info follow-us p-5 d-flex flex-column align-items-center">
+          <h4>Follow us</h4>
+          <p>INSTAGRAM</p>
+          <p>FACEBOOK</p>
+          <p>PINTEREST</p>
+          <p>TWITTER</p>
+          <p>LINKEIN</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

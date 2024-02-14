@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN HEADER */
+
+.navbar {
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
+  padding: 5px 30px;
+  background-color: #ffffff;
+}
+
+.nav-link {
+  color: #113a36 !important;
+}
+.nav-link:hover {
+  color: #20a389 !important;
+}
+.nav-link-smaller {
+  font-size: 15px;
+  font-style: italic;
+}
+.navbar-toggler {
+  color: #113a36;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-menu {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
+}
+
+.dropdown-item {
+  color: #20a389;
+}
+.dropdown-item:hover {
+  background-color: #fff;
+  color: #113a36;
+}
+ul {
+  list-style-type: none;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 10px 0;
+  align-items: center;
+  text-align: center;
+}
+.logo-color {
+  color: #113a36;
+}
+.logo-color:hover {
+  color: #20a389;
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+  max-height: 600px;
+}
+img.mechanism {
+  width: 100px;
+  height: 100px;
+}
+
+/* PROCEDURE SECTION */
+#procedure-container {
+  background-color: #20a389;
+}
+p.mechanism-text {
+  color: #fff;
+}
+
+/* WORK */
+
+#project-container p {
+  color: #113a36;
+}
+
+.row .col {
+  flex: 33.3%;
+  /* width: auto; */
+  padding: 0 4px;
+}
+.row .col img {
+  padding-bottom: 8px;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background-color: #113a36;
+  max-height: auto;
+  color: #fff;
+}
